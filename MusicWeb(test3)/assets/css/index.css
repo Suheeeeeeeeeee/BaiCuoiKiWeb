@@ -1,0 +1,38 @@
+.hidden {
+    display: none;
+}
+
+#container {
+    position: relative;
+    width: 60px; /* Điều này có thể cần được điều chỉnh tùy thuộc vào yêu cầu của bạn */
+    
+}
+
+#playlistContainer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#playlistContainer ul {
+    list-style: none;
+    padding: 0;
+}
+
+#playlistContainer ul li {
+    margin-bottom: 5px;
+    cursor: pointer;
+	color: black;
+}
+#showPlaylistButton{
+	display: inline-block;
+   
+}
+.song{
+padding: 10px;
+}
